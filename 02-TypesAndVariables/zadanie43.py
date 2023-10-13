@@ -1,0 +1,2 @@
+imie = "Krystian"
+print(f'{imie[0:1]}({ord(imie[0:1])}) {imie[1:2]}({ord(imie[1:2])}) {imie[2:3]}({ord(imie[2:3])}) {imie[3:4]}({ord(imie[3:4])}) {imie[4:5]}({ord(imie[4:5])}) {imie[5:6]}({ord(imie[5:6])}) {imie[6:7]}({ord(imie[6:7])}) {imie[7:8]}({ord(imie[7:8])})')
