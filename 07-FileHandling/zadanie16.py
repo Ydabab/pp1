@@ -7,3 +7,9 @@ File name: countries.txt
 Number of lines: 14
 '''
 file_name = input("File name: ")
+file = open(file_name, "r")
+counter = 0
+for line in file:
+    counter += 1
+print(f"File name: {file_name}" + "\n" + f"Number of lines: {counter}")
+file.close()
