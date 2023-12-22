@@ -1,0 +1,10 @@
+{
+    "title": "asd",
+    "year": 1234,
+    "actor": {
+        "leading": "Tim",
+        "supporting": "Tom"
+    },
+    "oscar": false,
+    "director": "Christopher Nolan"
+}

@@ -1,13 +1,16 @@
 basic_data = {
-    "name": "Barbara",
-    "age": 21
+    "name":"Barbara",
+    "age":21
 }
 
 advanced_data = {
-    "status": "student",
-    "married": "false",
-    "interest": ["reading", "swimming"]
+    "status":"student",
+    "married":False,
+    "interest":["reading","swimming"]
 }
-person = basic_data
-person.update(advanced_data)
+
+person = {}
+person.update(basic_data.items())
+person.update(advanced_data.items())
+
 print(person)
